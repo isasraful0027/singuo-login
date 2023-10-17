@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700;900&family=Tilt+Neon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "tilt ieon", "roboto", 'Times New Roman', "Times", "serif";
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, aqua, rgb(238, 0, 255));
+}
+
+.full_box{
+    background-color: #fff;
+    border: none;
+    height: 580px;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 10px;
+}
+
+.txt-login{
+    color: black;
+    font-size: 30px ;
+    margin-top: 20px;
+    background: transparent;
+    text-align: center;
+}
+
+.form{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.email input{
+    height: 30px;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.email input:hover{
+    border-bottom: solid aqua 1px;
+}
+
+.password{
+    margin-top: 30px;
+}
+
+.password input{
+    height: 30px;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.password input:hover{
+    border-bottom: solid rgb(238, 0, 255) 1px;
+}
+
+.a {
+    font-size: small;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.a a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.form p{
+    text-align: center;
+    margin: 30px;
+}
+
+.icon{
+    text-align: center;
+    font-size: 30px;
+}
+
+.icon i{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.login-btn{
+    text-align: center;
+    margin: 40px;
+}
+
+.login-btn button{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, aqua, rgb(238, 0, 255));
+}
+
+.login-btn button:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sing-up{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sing-up a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .form form{
+    background-color: aqua;
+    margin: 20px;
+}
+
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    outline: none;
+}
+
+input
+
+.email{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.password{
+    margin: 20px;
+    margin-top: 30px;
+} */
